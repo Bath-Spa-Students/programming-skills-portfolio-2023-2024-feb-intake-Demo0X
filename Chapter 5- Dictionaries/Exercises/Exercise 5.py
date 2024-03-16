@@ -9,5 +9,6 @@ pets = [
      ]
 
 for x in pets:
-    print(f"Animal: {x['animal']}")
-    print(f"Owner: {x['owner']}")
+    print(f"Animal is {x['animal']}")
+    print(f"Owner is {x['owner']}")
+
