@@ -9,7 +9,6 @@ finished_sandwiches = [""]
 
 for x in range(len(sandwich_orders)):
     x = sandwich_orders.pop()
-    print(f"I made your {x} sandwhich!")
     finished_sandwiches.append(x)
     if "Pastrami" in finished_sandwiches:
           finished_sandwiches.remove("Pastrami")
