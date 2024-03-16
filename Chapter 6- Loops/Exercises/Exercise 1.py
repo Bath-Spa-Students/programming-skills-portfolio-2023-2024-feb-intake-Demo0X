@@ -3,6 +3,6 @@
 
 while True:
     topping = input("Please enter your desired toppings: ")
-    print(f"We will add {topping} to your pizza!")
     if topping == 'quit':
         break
+    print(f"We will add {topping} to your pizza!")
