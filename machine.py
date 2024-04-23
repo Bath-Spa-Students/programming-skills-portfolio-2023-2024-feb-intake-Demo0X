@@ -78,6 +78,7 @@ def machineworkings():
                     print(f"Here's your change: {change} AED")
                     # User budget will become the change calculated
                     usrbudget = change
+                    #Snackstocks is subtracted for snack items  
                     snackstock -= 10
 # ------------------------------------------------------------------------------------
                 elif usrcode.upper() == "S2" and usrbudget >= prices[1]:
@@ -128,7 +129,8 @@ def machineworkings():
                     print(f"Here's your change: {change} AED")
                     usrbudget = change
                     beveragestock -= 10
-# ------------------------------------------------------------------------------------                    
+# ------------------------------------------------------------------------------------
+                # If user enters X, which is the code for exit the system is shut down
                 elif usrcode.upper() == "X":
                     print("""
                 <..............................................................>
